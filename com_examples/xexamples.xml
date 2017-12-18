@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. Alexandr Kosarev, @kosarev.by
+  -->
+
+<extension type="component" version="3.8" method="upgrade">
+	<name>com_xexamples</name>
+	<author>Alexandr Kosarev</author>
+	<creationDate>December 2017</creationDate>
+	<copyright>(C) 2005 - 2017 kosarev.by. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>alexandr@kosarev.by</authorEmail>
+	<authorUrl>kosarev.by</authorUrl>
+	<version>1.0.0</version>
+	<description>Example of X based component</description>
+	<administration>
+		<menu img="class:examples">eXamples</menu>
+		<files folder="admin">
+			<filename>xexamples.php</filename>
+			<filename>Dispatcher.php</filename>
+			<folder>Controller</folder>
+			<folder>View</folder>
+			<folder>tmpl</folder>
+		</files>
+	</administration>
+</extension>
+
+
