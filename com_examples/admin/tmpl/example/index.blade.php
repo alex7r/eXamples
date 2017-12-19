@@ -20,6 +20,9 @@ JToolbarHelper::addNew('create');
                 <th>
                     body
                 </th>
+                <th>
+                    actions
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +36,16 @@ JToolbarHelper::addNew('create');
                 </td>
                 <td>
                     {{$item->body}}
+                </td>
+                <td>
+                    <a class="btn btn-small" href="{{\Joomla\CMS\Router\Route::_('index.php?option=com_xexamples&id='
+                    .$item->id,false)}}">
+                        show
+                    </a>
+                    <a class="btn btn-small" href="{{\Joomla\CMS\Router\Route::_('index.php?option=com_xexamples&task=edit&id='
+                    .$item->id,false)}}">
+                        edit
+                    </a>
                 </td>
             </tr>
             @endforeach
