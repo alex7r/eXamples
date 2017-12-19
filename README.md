@@ -5,3 +5,4 @@ In this stories we will cover development of simple (yet great) extension based 
 - preparation (https://github.com/alex7r/eXamples/pull/1)
 ## Lesson 1
 - creating simple view for admin (https://github.com/alex7r/eXamples/pull/2)
+- create a basic CRUD (https://github.com/alex7r/eXamples/pull/3)
