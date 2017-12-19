@@ -3,9 +3,11 @@
 use Joomla\CMS\Pagination\Pagination;
 
 Joomla\CMS\HTML\HTMLHelper::_('behavior.core');
+JToolbarHelper::addNew('create');
 ?>
 <form method="get" name="adminForm" id="adminForm" action="<?= Joomla\CMS\Router\Route::_('index.php') ?>">
     <input name="option" value="com_xexamples" type="hidden">
+    <input name="task" value="" type="hidden">
     <table class="table table-bordered">
         <thead>
             <tr>
