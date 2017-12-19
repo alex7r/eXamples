@@ -57,6 +57,7 @@ JToolbarHelper::addNew('create');
                         $items->perPage()); ?>
                     <?= $jpagination->getListFooter() ?>
                 </td>
+                <td></td>
             </tr>
         </tfoot>
     </table>
