@@ -7,8 +7,9 @@ namespace Joomplace\Component\Xexamples\Admin\Controller;
 
 
 use Joomplace\X\Controller;
+use Joomplace\X\Helper\Restful;
 
 class Example extends Controller
 {
-
+    use Restful;
 }
