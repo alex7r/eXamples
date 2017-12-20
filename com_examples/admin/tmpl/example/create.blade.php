@@ -1,16 +1,8 @@
-@extends('form')
-
-<?php $method = 'post' ?>
-
-@section('toolbar')
-    <?php
-        JToolbarHelper::save('store')
-    ?>
-@endsection
-
-@section('form')
-    <label>Title</label>
-    <input type="text" name="title" placeholder="Example title" />
-    <label>Body</label>
-    <textarea name="body" placeholder="Example body"></textarea>
+@extends('crud.edit')
+@php
+    /** @var \Joomplace\X\Model $item */
+@endphp
+@section('field.body')
+    <label>@lang($item->getLabelFor('body'))</label>
+    <textarea name="body" placeholder="@lang($item->getPlaceholderFor('body'))">{{$item->body}}</textarea>
 @endsection
